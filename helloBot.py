@@ -2,11 +2,11 @@ import discord, json, requests, urllib3, datetime
 
 
 #Tokeni discordiin että saa bottiin yhteyden
-TOKEN = 'NTMxNzAxNzk3NzQwNjA5NTM2.DxRyfQ.xWlWy_cKQQL-GSrLb3s5Cm9pIDs'
+TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 client = discord.Client()
 
-#Kyrpä url tarvii vuoden, kuukauden, päivän
+#Sodexon url tarvii vuoden, kuukauden, päivän
 now = datetime.datetime.now()
 day = now.day
 month = now.month
